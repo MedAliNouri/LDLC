@@ -2,29 +2,13 @@
 <html>
 
 <head>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <script type="text/javascript">
-     
-    
    
-            function theFunction(e) {
-           
-                let parent = e.target.parentElement;
-                parent = parent.parentElement;
-                parent.classList.toggle("open");
-                parent.addEventListener('mouseleave', e => {
-                    parent.classList.remove('open');
-});
-         
-            }
-    
-           
-        </script>
 </head>
 
 <body>
@@ -44,7 +28,7 @@
                         </div>
                         <h2 class="txt"><em>Pièces informatique</em></h2>
 
-                        <span id="1" class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span id="1" class="icon fa fa-chevron-down"></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -117,7 +101,7 @@
                                 alt="Périphérique PC">
                         </div>
                         <h2 class="txt"><em>Périphérique PC</em></h2>
-                        <span id="2" class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span id="2" class="icon fa fa-chevron-down"></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -197,7 +181,7 @@
                                 alt="Ordinateur portable">
                         </div>
                         <h2 class="txt"><em>Ordinateur portable</em></h2>
-                        <span id="3" class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span id="3" class="icon fa fa-chevron-down"></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -269,7 +253,7 @@
                                 alt="Ordinateur de bureau">
                         </div>
                         <h2 class="txt"><em>Ordinateur de bureau</em></h2>
-                        <span id="4" class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span id="4" class="icon fa fa-chevron-down"></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -320,7 +304,7 @@
                             <img src="https://media.ldlc.com/r100/ld/categories/thumbnails/7630.jpg" alt="Tablette">
                         </div>
                         <h2 class="txt"><em>Tablette</em></h2>
-                        <span id="5" class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span id="5" class="icon fa fa-chevron-down"></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -370,7 +354,7 @@
                             <img src="https://media.ldlc.com/r100/ld/categories/thumbnails/4198.jpg" alt="Réseau">
                         </div>
                         <h2 class="txt"><em>Réseau</em></h2>
-                        <span id="6" class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span id="6" class="icon fa fa-chevron-down" ></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -437,7 +421,7 @@
                             <img src="https://media.ldlc.com/r100/ld/categories/thumbnails/7706.jpg" alt="Raspberry Pi">
                         </div>
                         <h2 class="txt"><em>Raspberry Pi</em></h2>
-                        <span class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span class="icon fa fa-chevron-down" ></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -472,7 +456,7 @@
                             <img src="https://media.ldlc.com/r100/ld/categories/thumbnails/4193.jpg" alt="Logiciels">
                         </div>
                         <h2 class="txt"><em>Logiciels</em></h2>
-                        <span id="8" class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span id="8" class="icon fa fa-chevron-down"></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -523,7 +507,7 @@
                                 alt="Matériel pour Point de Vente (POS)">
                         </div>
                         <h2 class="txt"><em>Matériel pour Point de Vente (POS)</em></h2>
-                        <span id="9" class="icon fa fa-chevron-down" onclick="theFunction(event)"></span>
+                        <span id="9" class="icon fa fa-chevron-down" ></span>
                     </a>
                     <div class="list">
                         <ul>
@@ -554,5 +538,25 @@
     </div>
 
 </body>
+<script type="text/javascript">
+
+    var target = document.getElementsByClassName("icon")
+    console.log(target)
+    for (var i = 0; i < target.length; i++) {
+        console.log(target[i])
+        target[i].addEventListener('click', (event) => {
+            console.log(target[i])
+            let parent = event.target.parentElement;
+            parent = parent.parentElement;
+            parent.classList.toggle("open");
+            parent.addEventListener('mouseleave', event => {
+                parent.classList.remove('open');
+            });
+        });
+    }
+
+
+
+</script>
 
 </html>

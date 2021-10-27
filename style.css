@@ -132,10 +132,7 @@ article, aside, details, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, hea
     width: 50px;
     height: 40px;
 }
-.icon {
-    /* font-family: icons; */
-   
-}
+
 .button, .icon, body {
     -webkit-font-smoothing: antialiased;
 }
