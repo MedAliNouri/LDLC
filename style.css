@@ -181,6 +181,11 @@ a {
     display: table-cell;
     vertical-align: middle;
 }
+.list:before {
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
 .cat-bloc ul.list-cat>li .toggle-list.link-open-modal span:before, .cat-bloc ul.list-cat>li a.toggle-list span:before {
     position: absolute;
     left: 50%;

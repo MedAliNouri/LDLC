@@ -32,7 +32,7 @@
                     </a>
                     <div class="list">
                         <ul>
-                            <li class="open">
+                            <li >
                                 <h3><a href="#">Boîtier</a></h3>
                             </li>
                             <li>
@@ -541,11 +541,11 @@
 <script type="text/javascript">
 
     var target = document.getElementsByClassName("icon")
-    console.log(target)
+
     for (var i = 0; i < target.length; i++) {
-        console.log(target[i])
+    
         target[i].addEventListener('click', (event) => {
-            console.log(target[i])
+   
             let parent = event.target.parentElement;
             parent = parent.parentElement;
             parent.classList.toggle("open");
