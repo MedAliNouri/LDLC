@@ -1,0 +1,309 @@
+.cat-bloc {
+    padding-bottom: 0;
+}
+.sbloc, .shipping-point-choice .shipping-point-list ul {
+    position: relative;
+    display: table;
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto 22px;
+    padding: 22px;
+    background: #FFF;
+}
+.cat-bloc .title-1, .compare-zone, .compare-zone form, .compare-zone li, .compare-zone li .remove, .listing-product .wrap-stock, .pic-label .brand-logo {
+    text-align: center;
+}
+
+.sbloc .title-1, .sbloc .title-2, .sbloc .title-3, .shipping-point-choice .shipping-point-list ul .title-1, .shipping-point-choice .shipping-point-list ul .title-2, .shipping-point-choice .shipping-point-list ul .title-3 {
+    margin-top: 9px;
+}
+.title-1, .title-2, .title-3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-1, h1 {
+    font-size: 26px;
+    color: #5f5f5f;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+.breadcrumb>ul>li strong, .title-1, h1, strong {
+    font-weight: 600;
+}
+.cat-bloc ul.list-cat>li.open .list {
+    display: block;
+}
+.cat-bloc ul.list-cat>li.open {
+    z-index: 100;
+    border-color: #0096c8;
+}
+.link-open-modal, a, abbr, acronym, address, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.cat-bloc ul.list-cat {
+    display: table;
+    width: 100%;
+}
+li, ol, ul {
+    list-style: none;
+}
+.cat-bloc ul.list-cat>li {
+   
+    float: left;
+    margin-right: 1.99%;
+    margin-bottom: 1.99%;
+    border: 2px
+ solid #E1E1E1;
+    background: 0 0;
+    transition: all .3s;
+    position: relative;
+}
+li, ol, ul {
+    list-style: none;
+}
+.cat-bloc ul.list-cat>li .toggle-list.link-open-modal, .cat-bloc ul.list-cat>li a.toggle-list {
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+    cursor: default;
+}
+.cat-bloc ul.list-cat>li .link-open-modal, .cat-bloc ul.list-cat>li a {
+    text-decoration: none;
+    display: block;
+}
+.link-open-modal, .link-open-modal:hover, a, a:hover {
+    color: #0a3782;
+}
+.cat-bloc ul.list-cat>li .list {
+    right: -2px;
+    left: -2px;
+    border: 2px solid #0096c8;
+    position: absolute;
+    text-align: left;
+    display: none;
+    background-color: #fff;
+}
+
+.cat-bloc ul.list-cat>li .pic {
+    float: left;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.cat-bloc ul.list-cat>li .txt {
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 16px;
+    color: #0a3782;
+    display: table;
+    height: 52px;
+    margin: 0;
+    text-transform: none;
+    cursor: pointer;
+}
+.title-2, h2 {
+    font-size: 20px;
+    line-height: 22px;
+}
+.title-2, .title-3, h2, h3 {
+    color: #505050;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+article, aside, details, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, menu, nav, section {
+    display: block;
+}
+.cat-bloc ul.list-cat>li .toggle-list.link-open-modal span.icon, .cat-bloc ul.list-cat>li a.toggle-list span.icon {
+    cursor: pointer;
+}
+.cat-bloc ul.list-cat>li .toggle-list.link-open-modal span, .cat-bloc ul.list-cat>li a.toggle-list span {
+    position: relative;
+    color: #0a3782;
+    z-index: 1;
+}
+.cat-bloc ul.list-cat>li span.icon {
+    font-size: 15px;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+}
+.icon {
+    /* font-family: icons; */
+   
+}
+.button, .icon, body {
+    -webkit-font-smoothing: antialiased;
+}
+.cat-bloc ul.list-cat>li .pic img {
+    float: left;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cat-bloc ul.list-cat>li .pic {
+    float: left;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.cat-bloc ul.list-cat>li .toggle-list.link-open-modal, .cat-bloc ul.list-cat>li a.toggle-list {
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+    cursor: default;
+}
+.cat-bloc ul.list-cat>li .link-open-modal, .cat-bloc ul.list-cat>li a {
+    text-decoration: none;
+    display: block;
+}
+.link-open-modal, .link-open-modal:hover, a, a:hover {
+    color: #0a3782;
+}
+.button, .link-open-modal, a {
+    cursor: pointer;
+    position: relative;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.cat-bloc ul.list-cat>li .txt em {
+    display: table-cell;
+    vertical-align: middle;
+}
+.cat-bloc ul.list-cat>li .toggle-list.link-open-modal span:before, .cat-bloc ul.list-cat>li a.toggle-list span:before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.icon-arrow-bottom-bold:before {
+    content: "\E007";
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cat-bloc ul.list-cat>li .toggle-list.link-open-modal span:after, .cat-bloc ul.list-cat>li a.toggle-list span:after {
+    position: absolute;
+    content: '';
+    background: #E1E1E1;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.cat-bloc ul.list-cat>li .list ul {
+    font-size: 14px;
+    border: 1
+px
+ solid #969696;
+}
+li, ol, ul {
+    list-style: none;
+}
+li, ol, ul {
+    list-style: none;
+}
+.cat-bloc ul.list-cat>li .list h3 {
+    margin: 0;
+    font-size: 14px;
+    text-transform: none;
+    line-height: 21px;
+}
+.title-1, .title-2, .title-3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title-3, h3 {
+    font-size: 18px;
+}
+.title-2, .title-3, h2, h3 {
+    color: #505050;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+article, aside, details, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, menu, nav, section {
+    display: block;
+}
+.cat-bloc ul.list-cat>li .list .link-open-modal, .cat-bloc ul.list-cat>li .list a {
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 5px 15px 4px;
+    color: #0a3782;
+    display: block;
+}
+/* .cat-bloc {
+    padding-bottom: 0;
+}
+.sbloc, .shipping-point-choice .shipping-point-list ul {
+    position: relative;
+    display: table;
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto 22p;
+    padding: 22px;
+    background: #FFF;
+} */
+
+@media (min-width: 992px){
+.col-lg-4 {
+    -ms-flex: 0 0 30.333333%!important;
+    flex: 0 0 30.333333%!important;
+    max-width: 30.333333%!important;
+}}
+
+.cat-bloc ul.list-cat>li.open span.icon {
+    -webkit-transform: rotate(
+180deg);
+    transform: rotate(
+180deg);
+}
+.open>a {
+    outline: 0;
+}
+.cat-bloc ul.list-cat>li .link-open-modal, .cat-bloc ul.list-cat>li a {
+    text-decoration: none;
+    display: block;
+}
+
+.cat-bloc ul.list-cat>li.open .list {
+    display: block;
+}
+.cat-bloc ul.list-cat>li .toggle-list.link-open-modal span:before, .cat-bloc ul.list-cat>li a.toggle-list span:before {
+ 
+    
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.cat-bloc ul.list-cat>li .toggle-list.link-open-modal span.icon, .cat-bloc ul.list-cat>li a.toggle-list span.icon {
+    cursor: pointer;
+    
+}
+.test{
+    background-color: #eb0000;
+}
+
+.cat-bloc ul.list-cat>li .list .link-open-modal:hover, .cat-bloc ul.list-cat>li .list a:hover {
+    background: #d9eef4;
+}
